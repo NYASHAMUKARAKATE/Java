@@ -7,6 +7,7 @@ public class ZooApp {
         animals[1] = new Cat("Whiskers");
 
         for (Animal animal : animals) {
+            System.out.println(animal.getName() + " says: ");
             animal.makeSound();
         }
     }
