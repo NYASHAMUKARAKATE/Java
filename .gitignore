@@ -1,10 +1,53 @@
-# Ignore Gradle project-specific cache directory
-.gradle
-.class
+# Gradle
+.gradle/
+build/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
 
+# Android
+*.apk
+*.aab
+*.ap_
+*.dex
+local.properties
+keystore.properties
+*.jks
+*.keystore
 
-# Ignore Gradle build output directory
-build
+# IDE - IntelliJ / Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
 
-# Ignore Kotlin plugin data
-.kotlin
+# IDE - VS Code
+.vscode/
+.classpath
+.project
+.settings/
+bin/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.log
+hs_err_pid*
+
+# Kotlin
+.kotlin/
+*.kotlin_module
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
