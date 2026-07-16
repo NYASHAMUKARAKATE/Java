@@ -34,7 +34,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = 'org.nyashamukarakate.java.App'
+    mainClass = 'org.nyashamukarakate.java.Main'
 }
 
 tasks.named('test') {
