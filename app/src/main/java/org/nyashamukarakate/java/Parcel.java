@@ -1,9 +1,9 @@
 package org.nyashamukarakate.java;
 
 public abstract class Parcel implements Trackable {
-    String trackingId;
-    double weight;
-    String destination;
+    private String trackingId;
+    private double weight;
+    private String destination;
 
     public Parcel(String trackingId, double weight, String destination) {
         this.trackingId = trackingId;

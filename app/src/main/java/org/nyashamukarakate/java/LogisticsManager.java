@@ -7,13 +7,10 @@ public class LogisticsManager {
         parcels[1] = new AirParcel("5678", 20.0, "Harare");
         parcels[2] = new GroundParcel("91011", 30.0, "Bulawayo");
 
+        double totalShippingCost = 0;
         for (int i = 0; i < parcels.length; i++) {
             parcels[i].printTrackingUpdate();
             System.out.printf("Cost: $%.2f\n", parcels[i].calculateShippingCost());
-        }
-
-        double totalShippingCost = 0;
-        for (int i = 0; i < parcels.length; i++) {
             totalShippingCost += parcels[i].calculateShippingCost();
         }
         System.out.println("Total shipping cost: " + totalShippingCost);
